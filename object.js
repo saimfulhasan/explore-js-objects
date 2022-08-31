@@ -30,8 +30,11 @@ const person = new Object();
 
 // 3. object create method
 // const item = Object.create(null);
-const atel = Object.create(student);
+
+const atel = Object.create(student); /* এই Object এর parent Object হচ্ছে 16 নাম্বার লাইন এর Object */
 // console.log(atel.name); /* Output: Pandey */
+
+
 
 // 4. class
 class Person{
